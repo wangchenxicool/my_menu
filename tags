@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+KEY_DOWN	myconio.h	5;"	d
+KEY_ENTER	myconio.h	6;"	d
+KEY_UP	myconio.h	4;"	d
+OBJS	Makefile	/^OBJS := $(filter %.o, $(OBJS))$/;"	m
+OBJS	Makefile	/^OBJS := $(patsubst %.S, %.o, $(SRC))$/;"	m
+SRC	Makefile	/^SRC := $(shell ls *.S)$/;"	m
+TARGET	Makefile	/^TARGET := mypnp.bin$/;"	m
+_MYCONIO_H	myconio.h	2;"	d
+dirGetInfo	myconio.c	/^char ** dirGetInfo (const char *pathname)$/;"	f
+getch	myconio.c	/^int getch()$/;"	f
+main_menu	main_menu.c	/^int main_menu (void)$/;"	f
+menu	myconio.c	/^int menu (const char **menu, int start_row)$/;"	f
+menu_main	main_menu.c	/^static const char *menu_main[] =$/;"	v	file:
+my_mdelay	myconio.c	/^void my_mdelay (unsigned int x)$/;"	f
+strHead_cut	myconio.c	/^char *strHead_cut (const char *s, int n)$/;"	f
